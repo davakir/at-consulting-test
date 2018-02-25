@@ -1,0 +1,19 @@
+<?php
+/**
+ * @var $routes array
+ * @var $error string|null
+ */
+?>
+<section id="route">
+	<?php if (!empty($error)) { ?>
+		<h2><?=$error?></h2>
+	<?php } else { ?>
+		<h2>Your route is ready:</h2>
+		
+		<ol>
+			<?php foreach ($routes as $route) { ?>
+				<li><?=$route?></li>
+			<?php } ?>
+		</ol>
+	<?php } ?>
+</section>

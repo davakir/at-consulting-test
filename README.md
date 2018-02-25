@@ -1,0 +1,1 @@
+Test exercise for jobseeking in AT-Consulting.
